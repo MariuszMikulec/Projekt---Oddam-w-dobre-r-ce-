@@ -7,7 +7,7 @@
   a{
   padding: 0.5em;
     text-decoration: none;
-    font: normal normal normal 14px/85px Open Sans;
+    font: normal normal normal 14px/85px $font-base;
     letter-spacing: 0px;
     color: #737373;
   }
@@ -20,7 +20,7 @@ nav {
   .menu {
     display: flex;
     justify-content: flex-end;
-    font: normal normal normal 18px/24px Open Sans;
+    font: normal normal normal 18px/24px $font-base;
     li {
       padding: 1em;
       a {
@@ -43,7 +43,7 @@ nav {
   padding-bottom: 2em;
   div{
     h1{
-      font: normal normal normal 38px/55px Open Sans;
+      font: normal normal normal 38px/55px $font-base;
     }
   }
 }
@@ -59,12 +59,12 @@ nav {
   div{
     margin-left: 2em;
     width: 16em;
-    border: 1px solid black;
+    border: 0.75px solid #3C3C3C;
 
     text-align: center;
   }
     a{
-      font: normal normal 300 36px/45px Open Sans;
+      font: normal normal 300 36px/45px $font-base;
       font-weight: lighter;
       color: #3C3C3C;
       text-decoration: none;

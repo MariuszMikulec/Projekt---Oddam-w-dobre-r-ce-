@@ -7,41 +7,36 @@ import header_bc from "../assets/Home-Hero-Image.jpg"
 export default function HomeHeader(){
     return(
         <Fragment>
-            <div className="log_panel">
-                <Link to="/logowanie">Zaloguj</Link>
-                <Link to="/rejestracja">Załóż konto</Link>
-            </div>
-            <nav>
-                <ul className="menu">
-                    <li><Link>Start</Link></li>
-                    <li><Link>O co chodzi?</Link></li>
-                    <li><Link>O nas</Link></li>
-                    <li><Link>Fundacja i organizacje</Link></li>
-                    <li><Link>Kontakt</Link></li>
-                </ul>
-
-            </nav>
-            <div className="header-column">
-                <div>
-                    <h1>Zacznij pomagać!</h1>
-                    <h1>Oddaj niechciane rzeczy w zaufane ręce</h1>
+            <header>
+                <div className="log_panel">
+                    <Link to="/logowanie">Zaloguj</Link>
+                    <Link to="/rejestracja">Załóż konto</Link>
                 </div>
-            </div>
-            <div className="dec-container">
-                <img src={decoration} alt="dec"/>
-            </div>
-            <div className="btn-container">
-                <div><Link to="/logowanie">ODDAJ RZECZY</Link></div>
-                <div><Link to="/logowanie">ZORGANIZUJ ZBIÓRKĘ</Link></div>
-            </div>
-            <img className="header-bc" src={header_bc} alt="header_bc"/>
+                <nav>
+                    <ul className="menu">
+                        <li><Link>Start</Link></li>
+                        <li><Link>O co chodzi?</Link></li>
+                        <li><Link>O nas</Link></li>
+                        <li><Link>Fundacja i organizacje</Link></li>
+                        <li><Link>Kontakt</Link></li>
+                    </ul>
 
+                </nav>
+                <div className="header-column">
+                    <div>
+                        <h1>Zacznij pomagać!</h1>
+                        <h1>Oddaj niechciane rzeczy w zaufane ręce</h1>
+                    </div>
+                </div>
+                <div className="dec-container">
+                    <img src={decoration} alt="dec"/>
+                </div>
+                <div className="btn-container">
+                    <div><Link to="/logowanie">ODDAJ RZECZY</Link></div>
+                    <div><Link to="/logowanie">ZORGANIZUJ ZBIÓRKĘ</Link></div>
+                </div>
+                <img className="header-bc" src={header_bc} alt="header_bc"/>
+            </header>
         </Fragment>
     )
 }
-/*
-<div>
-                    <Link>ODDAJ RZECZY</Link>
-                    <Link>ZORGANIZUJ ZBIÓRKĘ</Link>
-                </div>
- */
