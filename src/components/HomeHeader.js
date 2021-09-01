@@ -2,8 +2,7 @@ import React, {Fragment} from "react";
 import {Link} from "react-router-dom";
 import decoration from "../assets/Decoration.svg"
 import header_bc from "../assets/Home-Hero-Image.jpg"
-
-//import { Link as l} from 'react-scroll'
+import { Link as LinkScroll} from 'react-scroll'
 export default function HomeHeader(){
     return(
         <Fragment>
@@ -14,11 +13,11 @@ export default function HomeHeader(){
                 </div>
                 <nav>
                     <ul className="menu">
-                        <li><Link>Start</Link></li>
-                        <li><Link>O co chodzi?</Link></li>
-                        <li><Link>O nas</Link></li>
-                        <li><Link>Fundacja i organizacje</Link></li>
-                        <li><Link>Kontakt</Link></li>
+                        <li><LinkScroll to="cos" duration={1500} smooth>Start</LinkScroll></li>
+                        <li><LinkScroll to="cos" duration={1500} smooth>O co chodzi?</LinkScroll></li>
+                        <li><LinkScroll to="cos" duration={1500} smooth>O nas</LinkScroll></li>
+                        <li><LinkScroll to="cos" duration={1500} smooth>Fundacja i organizacje</LinkScroll></li>
+                        <li><LinkScroll to="cos" duration={1500} smooth>Kontakt</LinkScroll></li>
                     </ul>
 
                 </nav>

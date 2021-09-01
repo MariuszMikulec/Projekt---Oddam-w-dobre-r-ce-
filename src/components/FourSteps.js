@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import decoration from "../assets/Decoration.svg";
 export default function FourSteps(){
     return(
-        <Fragment>
+        <div id='cos'>
             <section className="fs_section">
                 <div className="fs_row">
                     <div className="fs_col">
@@ -43,6 +43,6 @@ export default function FourSteps(){
                     </div>
                 </div>
             </section>
-        </Fragment>
+        </div>
     )
 }
