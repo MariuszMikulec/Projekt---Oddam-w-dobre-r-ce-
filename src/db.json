@@ -1,0 +1,58 @@
+{
+  "foundation":[
+    {
+      "name": "fundacja1",
+      "desc": "desc",
+      "targets": "asdf, sdfg, asdfv"
+    },
+    {
+      "name": "fundacja2",
+      "desc": "desc",
+      "targets": "asdf, sdfg, asdfv"
+    },
+    {
+      "name": "fundacja3",
+      "desc": "desc",
+      "targets": "asdf, sdfg, asdfv"
+    }
+  ],
+  "organisation":[
+    {
+      "name": "org1",
+      "desc": "desc",
+      "targets": "asdf, sdfg, asdfv"
+    },
+    {
+      "name": "org2",
+      "desc": "desc",
+      "targets": "asdf, sdfg, asdfv"
+    },
+    {
+      "name": "org3",
+      "desc": "desc",
+      "targets": "asdf, sdfg, asdfv"
+    }
+  ],
+
+  "local" :[
+    {
+      "name":[
+        "loc 1",
+        "loc 2",
+        "loc 3"
+      ],
+    "description":[
+      "loc Lorem ipsum dolor sit amet.",
+      "loc Lorem dolor amet.",
+      "loc Lorem ipsum dolor sit."
+    ],
+    "targets":[
+      "labc",
+      "lodef",
+      "loghi"
+    ],
+      "pages": 0,
+      "display": "none"
+    }
+  ]
+}

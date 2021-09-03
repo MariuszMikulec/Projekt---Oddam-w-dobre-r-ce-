@@ -3,6 +3,7 @@ import HomeHeader from "./HomeHeader";
 import ThreeColumns from "./ThreeColumns";
 import FourSteps from "./FourSteps";
 import HomePaginate from "./HomePaginate";
+import MyComponent from "./Hp";
 export default function Home(){
 
     return(
@@ -11,6 +12,7 @@ export default function Home(){
             <ThreeColumns/>
             <FourSteps/>
             <HomePaginate/>
+            <MyComponent/>
         </Fragment>
     )
 }
