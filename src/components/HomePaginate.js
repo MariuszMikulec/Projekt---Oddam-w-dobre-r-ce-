@@ -31,6 +31,7 @@ const List ={
                         <div className="home_col"><button>2</button></div>
                         <div className="home_col"><button>3</button></div>
                     </div>
+
                     <div className="home_row">
                         <div className="home_col"><p>Lorem ipsum dolor sit amet, consectetur
                             adipisicing elit. Laborum, tempora!</p></div>

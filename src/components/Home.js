@@ -2,8 +2,7 @@ import React, {Fragment} from "react";
 import HomeHeader from "./HomeHeader";
 import ThreeColumns from "./ThreeColumns";
 import FourSteps from "./FourSteps";
-import HomePaginate from "./HomePaginate";
-import MyComponent from "./Hp";
+import HP from "./Hp";
 export default function Home(){
 
     return(
@@ -11,8 +10,10 @@ export default function Home(){
             <HomeHeader/>
             <ThreeColumns/>
             <FourSteps/>
-            <HomePaginate/>
-            <MyComponent/>
+            <HP/>
         </Fragment>
     )
 }
+/*
+json-server --watch db.json
+ */
